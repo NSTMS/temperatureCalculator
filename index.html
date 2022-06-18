@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CALCULATOR</h1>
+    </header>
+    <main>
+        <div class="calc-1">
+            <div class="title">FARHENHEIT</div>
+            <div class="letterAndValue">
+                <div class="bigLetter"><strong>F</strong></div>
+            <div class="values">
+                <input type="number" name="temperature" onChange="calcFahrenheits()" id="temperature-1" value="32">
+            </div>
+        
+            </div>
+        </div>
+        <div class="calc-2">
+            <div class="title">CELCIUS</div>
+            <div class="letterAndValue">
+                <div class="bigLetter"><strong>C</strong></div>
+            <div class="values">
+                <input type="number" name="temperature" onChange="calcCelcius()" id="temperature-2" value="0">
+            </div>
+        
+            </div>
+        </div>
+        <div class="calc-3">
+            <div class="title">KELVIN</div>
+            <div class="letterAndValue">
+                <div class="bigLetter"><strong>K</strong></div>
+            <div class="values">
+                <input type="number" name="temperature" onChange="calcKelvins()"id="temperature-3"  value="273.15">
+            </div>
+        
+            </div>
+        </div>
+    </main>
+    <!-- <button type="submit" onclick="calcTemperature()"><strong>CALC</strong></button> -->
+    <script src="script.js"></script>
+</body>
+</html>
